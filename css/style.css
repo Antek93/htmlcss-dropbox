@@ -53,9 +53,74 @@
     float: right;
 }
 
+/* ATTRIBUTI MAIN  */
+
+.expanded-main {
+    width: 100%;
+}
+
+.narrow-main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container {
+    width: 100%;
+    background-color: black;
+    color: white;
+    min-height: 400px;
+
+}
+
 
 /* DEBUG LAYOUT */
 
 .debug1 {
     background-color: green;
 }
+
+.a-debug {
+    background-color: lightblue;
+    min-height: 300px;
+}
+
+.b-debug {
+    background-color: pink;
+    min-height: 300px;
+}
+
+.c-debug {
+    background-color: gray;
+    min-height: 300px;
+}
+
+.d-debug {
+    background-color: yellow;
+    min-height: 300px;
+}
+
+.e-debug {
+    background-color: pink;
+    min-height: 300px;
+}
+
+.f-debug {
+    background-color: lightblue;
+    min-height: 300px;
+}
+
+.g-debug  {
+    background-color: blue;
+    min-height: 300px;
+}
+
+.h-debug {
+    background-color: aqua;
+    min-height: 300px;
+}
+
+.i-debug {
+    background-color: pink;
+    min-height: 300px;
+}
+
