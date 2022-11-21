@@ -6,12 +6,24 @@
     box-sizing: border-box;
 }
 
+ 
+ .clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* ATTRIBUTI HEADER  */
+
+/* HEADER FISSO CON DIMENSIONE TUTTA VIEWPORT  */
+
 .head-container {
     width: 100vw;
     position: fixed;
     
-
 }
+
+/* Container flex header  */
 
 .flex-container-a {
     display: flex;
@@ -22,11 +34,7 @@
     
 }
 
-.clearfix {
-    content: '';
-    display: table;
-    clear: both;
-}
+/* ELEMENTI FLOTTATI  */
 
 .left-block > img {
     float: left
