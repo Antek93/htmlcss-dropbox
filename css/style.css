@@ -20,44 +20,104 @@
 .head-container {
     width: 100vw;
     position: fixed;
+    background-color: white;
+    height: 10vh;
+    font-size: large;
     
 }
 
-/* Container flex header  */
+/* Container flex  */
 
 .flex-container-a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.flex-container-b {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-container-c {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flex-container-d {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flex-container-e {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+/* ELEMENTI HEADER  */
+
+.link > a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 15px;
+}
+
+#inizia {
+    background-color: #0061ff;
+    padding: 5px 5px;
+    color: white;
+
+}
+
+.right-side, .left-side {
     min-height: 10vh;
-    
+    padding: 0px 35px;
 }
 
-/* ELEMENTI FLOTTATI  */
-
-.left-block > img {
-    float: left
+#logo {
+   padding-right: 20px;
 }
 
-.links-a {
-    float: left;
-}
-
-
-.links-b {
-    float: right;
-}
-
-.links-c {
-    float: right;
-}
 
 /* ATTRIBUTI MAIN  */
 
 .expanded-main {
     width: 100%;
+    padding-top: 10%;
 }
+
+.alpha-container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.right-box {
+    width: 80%;
+}
+
+.left-box {
+    width: 20%;
+}
+
+#jumbo {
+    width: 100%;
+}
+
+h1 {
+    font-size: 65px;
+    padding-bottom: 70px;
+}
+
 
 .narrow-main {
     width: 1200px;
@@ -68,20 +128,16 @@
     width: 100%;
     background-color: black;
     color: white;
-    min-height: 400px;
+    min-height: 300px;
 
 }
 
 
 /* DEBUG LAYOUT */
 
-.debug1 {
-    background-color: green;
-}
-
 .a-debug {
-    background-color: lightblue;
-    min-height: 300px;
+    background-color: #b4d0e7;
+    min-height: 600px;
 }
 
 .b-debug {
