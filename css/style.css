@@ -74,6 +74,14 @@ body {
     justify-content: space-around;
 }
 
+.flex-container-g {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
 
 
 /* ELEMENTI HEADER  */
@@ -160,7 +168,7 @@ body {
 }
 
 /* __________________________ */
-    /* * PRIMO CONTENITORE  */
+    /*  PRIMO CONTENITORE  */
 /* __________________________ */
 
 
@@ -197,7 +205,7 @@ h1 {
 
 
 /* __________________________ */
-    /* * SECONDO CONTENITORE  */
+    /* SECONDO CONTENITORE  */
 /* __________________________ */
 
 .beta-container {
@@ -301,6 +309,27 @@ h2 {
     padding-bottom: 10%;
 }
 
+/* BLOCCO CENTRALE SECONDO CONTENITORE  */
+
+.central-team {
+    margin-top: 5%;
+    border: 1px solid gray;
+}
+
+.central-team > div {
+    padding-left: 2px;
+    margin: 10px 2px;
+    display: inline-block;
+}
+
+.central-block {
+    border: 1px solid gray;
+}
+
+/* __________________________ */
+    /* TERZO CONTENITORE  */
+/* __________________________ */
+
 /* FOOTER  */
 .footer-container {
     width: 100%;
@@ -309,6 +338,7 @@ h2 {
     min-height: 300px;
 
 }
+
 
 /* DEBUG LAYOUT */
 
