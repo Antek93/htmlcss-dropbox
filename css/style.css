@@ -235,6 +235,12 @@ h2 {
 
 }
 
+/* ELEMENTI DA UTILIZZARE SU NECESSITA'  */
+
+.hidden {
+    visibility: hidden;
+}
+
 /* COLONNE SECONDO CONTENITORE  */
 
 .user {
@@ -284,10 +290,11 @@ h2 {
 
 .mese {
     margin-bottom: 30%;
+    color: lightgray;
 }
 
 .space {
-    margin-bottom: 40%;
+    padding-bottom: 40%;
 }
 
 .margin {
