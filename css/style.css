@@ -126,6 +126,12 @@ body {
     margin-top: 15%;
     margin-bottom: 10%;
     text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button3{
+    margin-top: 2%;
 }
 
 /* Fine tasti  */
@@ -313,7 +319,9 @@ h2 {
 
 .central-team {
     margin-top: 5%;
-    border: 1px solid gray;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
 }
 
 .central-team > div {
@@ -324,6 +332,15 @@ h2 {
 
 .central-block {
     border: 1px solid gray;
+}
+
+
+.menu-centrale > * {
+    margin: 2% 2%;
+}
+
+.info-utili {
+    margin: 1% 2%;
 }
 
 /* __________________________ */
