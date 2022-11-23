@@ -642,13 +642,38 @@ h1 {
     float: right;
 }
 
-.menu-a-scomparsa {
-    margin-top: 1%;
-}
+/* Menu a scomparsa  */
 
-.arrow:hover {
+.main-menu {
     cursor: pointer;
 }
+
+.line-section {
+    margin-bottom: 3%;
+}
+
+.menu-a-scomparsa {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.testo-nascosto > p {
+    display: none;
+}
+
+.testo-nascosto > hr {
+    display: none;
+}
+
+.main-menu:hover > .testo-nascosto > p {
+    display: block;
+    margin-bottom: 3%;
+}
+
+.main-menu:hover > .testo-nascosto > hr {
+    display: block;
+}
+
 
 /* FOOTER  */
 
@@ -680,10 +705,6 @@ h1 {
     color: white;
 }
 
-#hr2 {
-    width: 100%;
-    margin-top: 30%;
-}
 
 #lingua {
     margin-top: 50%;
