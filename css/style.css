@@ -89,6 +89,13 @@ body {
     justify-content: space-between;
 }
 
+.flex-container-i {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 
 /* ELEMENTI HEADER  */
@@ -226,7 +233,7 @@ h1 {
     margin: 0 auto;
 }
 
-h2 {
+#h2-1 {
   margin: 0 auto;
   font-size: 35px;
 }
@@ -425,6 +432,99 @@ h3 {
     margin-top: 3%;
 }
 
+/* __________________________ */
+    /* QUINTO CONTENITORE  */
+/* __________________________ */
+
+.fourth-menu > * {
+    margin: 4% 0px;
+}
+
+#fifth-title {
+    font-size: 40px;
+}
+
+/* __________________________ */
+    /* SESTO CONTENITORE  */
+/* __________________________ */
+
+.album-left {
+    width: calc(100% / 3);
+}
+
+.album-central {
+    width: calc(100% / 3);
+}
+
+.album-right {
+    width: calc(100% / 3);
+}
+
+.photo-container {
+    width: 250px;
+    height: 250px;
+    
+}
+
+.alpha {
+  background-color: #5d2c64;
+  border: 10px solid #2e1632;
+  padding: 100px 40px 60px 40px;
+  filter: invert(1);filter: invert(1);
+}
+
+.beta {
+ 
+  background-color: #9ef7d4;
+  padding: 60px 40px 60px 40px;
+  filter: invert(1);
+
+}
+
+.delta {
+  background-color: #ff6c31;
+  padding: 100px 40px 60px 40px;
+  filter: invert(1);
+}
+
+.gamma {
+  background-color: #00e3e3;
+  padding: 60px 40px 60px 40px;
+  filter: invert(1);
+
+}
+
+.img-dimension {
+    width: 100%;
+}
+
+.epsilon {
+   background-color: #2affe0;
+   padding: 100px 40px 60px 40px;
+   filter: invert(1);
+}
+
+.zeta {
+   background-color: #4b2f18;
+   padding: 120px 40px 60px 40px;
+   filter: invert(1);
+}
+
+.eta {
+   background-color: #f2db7e;
+   padding: 80px 40px 60px 40px;
+   filter: invert(1);
+}
+
+.theta {
+  background-color: #0027cf;
+  padding: 60px 40px 60px 40px;
+  filter: invert(1);
+}
+
+
+
+
 /* FOOTER  */
 .footer-container {
     width: 100%;
@@ -451,18 +551,19 @@ h3 {
 }
 
 .e-debug {
-    background-color: pink;
-    min-height: 300px;
+    margin-top: 8%;
 }
 
 .f-debug {
     background-color: lightblue;
     min-height: 300px;
+    width: 100vw;
 }
 
 .g-debug  {
-    background-color: blue;
     min-height: 300px;
+    width: 100%;
+    margin-top: 3%;
 }
 
 .h-debug {
