@@ -546,6 +546,10 @@ h1 {
 
 /* ALBUM CENTRALE  */
 
+#spch2 {
+    font-size: 50px;
+}
+
 .album-central > h3 {
     font-size: 50px;
     margin-bottom: 0px;
@@ -621,7 +625,6 @@ h1 {
 
 .ottavo-contenitore {
     margin-top: 5%;
-    min-height: 600px;
 }
 
 #eight-title {
