@@ -33,6 +33,12 @@ body {
 
 /* Container flex  */
 
+.clearfix {
+    content:'';
+    display: table;
+    clear: both;
+}
+
 .flex-container-a {
     display: flex;
     flex-direction: row;
@@ -625,30 +631,31 @@ h1 {
 
 .line-section {
     padding: 3% 0px 3% 0px;
+   
+}
+
+.question {
+    float: left;
+}
+
+.freccia {
+    float: right;
 }
 
 .menu-a-scomparsa {
-    display: none;
+    margin-top: 1%;
 }
 
 .arrow:hover {
     cursor: pointer;
 }
 
-.arrow:hover .menu-a-scomparsa {
-    display: block;
-    padding: 5% 0px 5% 0px;
-}
-
-
-
-
 /* FOOTER  */
+
 .footer-container {
     width: 100%;
     background-color: black;
     color: white;
-
 }
 
 .foot-list {
